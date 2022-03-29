@@ -1,0 +1,63 @@
+<!--
+File: index.html
+Author: Sallai András
+Copyright: 2022, Sallai András
+Group: Szoft E I 1/3
+Date: 2022-03-29
+Github: https://github.com/andteki/
+Licenc: GNU GPL
+-->
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kúp</title>
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+
+<div class="container">
+    
+    <h1>Kör alapú kúp térfogata</h1>
+
+    <form>
+        <div class="mb-3">
+            <label for="radius" class="form-label">Sugár</label>
+            <input type="text" 
+            class="form-control" id="radius">
+        </div>
+        <div class="mb-3">
+            <label for="height" class="form-label">Magasság</label>
+            <input type="text" class="form-control"
+            id="height">
+        </div>
+        <div>
+            <button id="calcBulk"
+            class="btn btn-info"
+            type="button"
+            >Számít</button>
+        </div>
+
+        <div class="mb-3">
+            <label for="bulk" class="form-label">Térfogat</label>
+            <input type="text" class="form-control"
+            id="bulk" readonly>
+        </div>
+    </form>
+
+
+</div>
+
+<div id="about">
+    <p>
+        Sallai András, 2022-03-29, Szoft I E 1/3
+    </p>
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
